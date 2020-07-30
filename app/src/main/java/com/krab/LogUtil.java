@@ -2,13 +2,9 @@ package com.krab;
 
 import android.util.Log;
 
-/**
- * @author zhangzhongren
- * @date 下午1:31 2018/8/24
- */
 
 public class LogUtil {
-    private static final String DEFAULT_TAG = "WECHATX";
+    private static final String DEFAULT_TAG = "krab";
     private static final int MAX_LENGTH = 3000;
     public static boolean DEBUG = BuildConfig.DEBUG;
     private static String SEPARATOR = "|";
